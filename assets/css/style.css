@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* https://www.mediaevent.de/css/animation.html */
+@keyframes rolling {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(800px);
+  }
+}
+.container {
+  margin-top: 100px;
+  border-top: 1px solid lightgrey;
+}
+.container .ball1 {
+  border-radius: 50%;
+  background-color: rgb(241, 16, 16);
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  animation: rolling 0.5s 1s infinite alternate ease-in-out;
+}
+.container .ball2 {
+  border-radius: 50%;
+  background-color: rgb(8, 91, 244);
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  animation: rolling 0.6s 1s infinite alternate ease-in-out;
+}
+.container .ball3 {
+  border-radius: 50%;
+  background-color: rgb(245, 229, 4);
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  animation: rolling 1.5s 1s infinite alternate ease-in-out;
+}
+
+/*# sourceMappingURL=style.css.map */
